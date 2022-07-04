@@ -1,8 +1,16 @@
 # Boilerplate pour vos applications modernes utilisant Webpack
 ## How to use ?
 - Si vous ne l'avez pas fait, vous pouvez cloner le repo associé au boilerplate pour initier votre application : `git clone https://github.com/e-vinci/js-basic-boilerplate.git` ou `git clone https://github.com/e-vinci/js-basic-boilerplate.git nom-de-votre-projet` pour créer votre projet nommé `nom-de-votre-projet`.
-- Une fois le clone fait, Git vous a créé un repo local de votre projet ; n'hésitez pas à ajouter une `remote` pour pointer vers votre Web repository.
-- Si vous avez cloné votre projet au sein d'un repo existant, Git ne trackera pas ce nouveau projet ; pour vous assurer que Git traque votre projet, vous devez effacer le répertoire `.git` se trouvant dans votre nouveau projet. N'hésitez pas aussi à effacer `.gitignore` se trouvant dans votre nouveau projet.
+- **package.json** est le fichier de configuration de votre projet. Veuillez le mettre à jour afin de :
+    - donnnez un nom à votre projet & une description ;
+    - vous identifier comme auteur.
+- ⚡ Si vous avez cloné votre projet au sein d'un repo existant, Git ne trackera pas ce nouveau projet ; en effet, Git ne tracque pas des projets Git dans des projets Git.
+Pour vous assurer que Git traque votre nouveau projet imbriqué dans un repo, vous devez effacer le répertoire **.git** se trouvant dans votre nouveau projet. N'hésitez pas aussi à effacer **.gitignore** se trouvant dans votre nouveau projet.
+- Par contre, si vous souhaitez créer un nouveau repo à l'aide de votre boilerplate, 
+vous pouvez utiliser le **.gitignore** existant. Vous pouvez aussi éventuellement utiliser le 
+**.git**, mais cela signifie que vous hériterez de tous les changements associés au boilerplate, 
+et que vous devrez changer l'origine (`git remote remove origin`, `git remote add origin LINK_TO_YOUR_REPO`). Nous vous recommandons plutôt d'effacer le répertoire **.git** et de 
+réinitialiser un projet git (`git init`, `git remote add origin LINK_TO_YOUR_REPO`).
 - Installation des dépendances et démarrage du boilerplate : 
 ```shell
 cd js-basic-boilerplate # (ou le nom donné au répertoire de votre projet)
