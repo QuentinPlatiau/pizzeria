@@ -40,8 +40,7 @@ module.exports = {
         type: 'asset/resource',
       },
 
-      /*
-      // automatically chooses between exporting a data URI and emitting a separate file.
+      /* automatically chooses between exporting a data URI and emitting a separate file.
       {
         test: /\.(png|jpg|gif|svg|mp3|mpe?g)$/,
         type : 'asset',
