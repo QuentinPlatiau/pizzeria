@@ -1,13 +1,13 @@
 {
   "name": "myjscourse-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "web2 frontend boilerplate",
+  "description": "pizzeria tutorial web2",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development"
   },
-  "author": "e-baron",
+  "author": "quentin platiau",
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
@@ -27,8 +27,9 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "@popperjs/core": "^2.9.2",
-    "bootstrap": "^5.0.1"
+    "@popperjs/core": "^2.11.6",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.2"
   },
   "license": "CC-BY-SA-4.0"
 }
